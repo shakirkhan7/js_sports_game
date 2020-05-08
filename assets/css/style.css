@@ -1,0 +1,70 @@
+
+body {
+    max-width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../css/bg-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+body button {
+    background-color:silver;
+    padding:10px;
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    font-weight: bold;
+    text-decoration:none;
+    color:rgb(48, 0, 0);
+    background-image: linear-gradient(bottom, rgb(34, 156, 204) 0%, rgb(26, 36, 17) 100%);
+    box-shadow: inset 0px 1px 0px #79CCF3, 0px 6px 0px #4D5348;
+    border-radius: 5px;
+}
+
+#reset-button {
+    bottom:-410px;
+   right: 7px;
+}
+    
+
+.hide {
+    display: none;
+}
+
+.left {
+    float: left;
+    right: -152px;
+    position: relative;
+    bottom:-270px;
+}
+.right {
+    position: relative;
+    float: right;
+    bottom:-270px;
+    left: 865px;
+
+    
+}
+.clear {
+    clear: both;
+}
+#reset-container, h1 {
+    position: relative;
+    right: -479px;
+    text-align: center;
+    top: -45px;
+}
+.argentina{
+    position: relative;
+    left: 1025px;
+    bottom: -65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+}
+.brazil{
+    position: relative;
+    bottom: -42px;
+    left: 240px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+} 
